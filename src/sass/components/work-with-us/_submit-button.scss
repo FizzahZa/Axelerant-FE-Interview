@@ -1,0 +1,14 @@
+.submit-button {
+  font-size: $description-size;
+  background: $button-color;
+  padding: 12px 32px;
+  color: $white;
+  transition: all 0.5s;
+  border-radius: 22px;
+  border: none;
+
+  &:hover {
+    background: $button-hover;
+    box-shadow: 0 0 5px $service-hover-shadow;
+  }
+}

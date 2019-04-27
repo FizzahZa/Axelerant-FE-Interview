@@ -1,0 +1,75 @@
+.menu {
+  text-align: left;
+  display: block;
+  list-style: none;
+  margin: 0 auto;
+  padding: 0px 0px;
+
+  @include lg {
+    text-align: center;
+    display: inline-flex;
+  }
+
+  li {
+    border: 1px solid $header-nav;
+    padding: 10px 0px;
+
+    @include lg {
+      border: none;
+      padding: 0px 0px;
+    }
+  }
+}
+
+.menu_links {
+  color: $menu-links;
+  font-size: 16px;
+  padding: 0px 25px;
+  text-decoration: none;
+  transition: all 0.5s;
+
+  &:hover {
+    color: $white;
+    text-decoration: underline;
+  }
+
+  &:focus {
+    color: $white;
+  }
+}
+
+.hamburger-menu {
+  display: block;
+
+  @include lg {
+    display: none;
+  }
+}
+
+.hamburger {
+  background: none;
+  position: absolute;
+  top: 18px;
+  left: 15px;
+  border: none;
+  font-size: 20px;
+  color: $white;
+
+  @include lg {
+    display: none;
+  }
+}
+
+.cross {
+  background: none;
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  color: $white;
+  border: none;
+  font-size: 50px;
+
+  @include lg {
+    display: none;
+  }
+}

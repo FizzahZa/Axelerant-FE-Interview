@@ -1,0 +1,15 @@
+.page-footer {
+  background-color: $footer-background;
+  color: $footer-color;
+  font-size: $mall-description;
+  align-items: center;
+  padding: 5px 20px;
+  display: block;
+  text-align: center;
+
+  @include lg {
+    display: flex;
+    justify-content: space-between;
+    padding: $footer-padding;
+  }
+}

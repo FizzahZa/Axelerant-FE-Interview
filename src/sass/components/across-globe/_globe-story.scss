@@ -1,0 +1,35 @@
+.across_globe {
+  padding: 10px 0px;
+  display: inline-block;
+  margin: $mobile-margin;
+
+  @include lg {
+    display: flex;
+    padding: 50px 15px;
+  }
+
+  @include xl {
+    padding: 50px 70px;
+  }
+}
+
+.across_globe_story {
+  width: 100%;
+
+  @include lg {
+    width: $globe-width;
+    color: $story-color;
+  }
+}
+
+.across_globe_heading {
+  font-size: $heading-size;
+  font-weight: $heading-weight;
+  line-height: 1.4;
+}
+
+.across_globe_decription {
+  font-size: $description-size;
+  font-weight: $description-weight;
+  line-height: 1.5;
+}

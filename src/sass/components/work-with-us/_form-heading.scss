@@ -1,0 +1,32 @@
+.work-with-us {
+  background-image: url('images/work_with_us.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  text-align: center;
+  color: $white;
+  padding: 30px 0px;
+
+  @include lg {
+    padding: $form-padding;
+  }
+}
+.contact-heading {
+  margin: 0 auto;
+  font-size: $heading-size;
+  font-weight: $heading-weight;
+  line-height: 42px;
+}
+
+.contact-description {
+  font-size: $description-size;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 22px;
+  margin: 0px 15px;
+  line-height: 25px;
+
+  @include lg {
+    margin-top: 5px;
+  }
+}

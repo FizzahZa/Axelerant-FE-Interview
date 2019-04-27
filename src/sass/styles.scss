@@ -1,4 +1,5 @@
 @import 'config/**/*.scss';
+@import 'components/**/*.scss';
 
 html {
   height: 100%;
@@ -7,5 +8,6 @@ html {
 
 body {
   font-size: 100%;
-  display: flex;
+  margin: 0 auto;
+  font-family: 'Montserrat', sans-serif;
 }

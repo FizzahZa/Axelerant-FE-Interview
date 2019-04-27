@@ -1,0 +1,41 @@
+.header {
+  display: block;
+  text-align: center;
+  background: $gradient-black;
+  width: 100%;
+  padding: 15px 15px;
+
+  @include lg {
+    display: flex;
+    text-align: left;
+    padding: 16px 15px;
+  }
+  @include xl {
+    padding: $padding-desktop;
+  }
+  .brand_image {
+    display: inline-block;
+    padding: 12px 8px;
+  }
+}
+
+.header_navigation {
+  margin-left: auto;
+  display: flex;
+
+  .header_navbar {
+    padding: 8px 10px;
+    display: none;
+    width: 100%;
+    background: $header-navbar-color;
+    margin-top: 15px;
+    border: 1px solid $header-nav;
+
+    @include lg {
+      display: block;
+      margin-top: 0px;
+      border: none;
+      background: none;
+    }
+  }
+}

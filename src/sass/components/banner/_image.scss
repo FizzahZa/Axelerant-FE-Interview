@@ -1,0 +1,31 @@
+.main_banner {
+  background-image: url('images/page_banner.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  text-align: center;
+  color: $white;
+}
+
+.banner_innerwrap {
+  padding: 55px 0px;
+
+  @include lg {
+    padding: $banner-padding;
+  }
+}
+
+.main_heading {
+  width: auto;
+  margin: 0 15px;
+  font-size: 27px;
+  line-height: 42px;
+  font-weight: 400;
+  padding-bottom: 28px;
+
+  @include lg {
+    width: 490px;
+    margin: 0 auto;
+    font-size: $desktop-heading;
+  }
+}

@@ -1,0 +1,50 @@
+.get_in_touch {
+  display: none;
+  
+  @include lg {
+    display: block;
+    font-size: 12px;
+    background: $button-color;
+    padding: 7px 20px;
+    color: $white;
+    transition: all 0.5s;
+    border-radius: 20px;
+    border: none;
+    position: relative;
+
+  @include xl {
+    font-size: $description-size;
+  }
+    
+    &:hover {
+      background: $button-hover;
+      box-shadow: 0 0 5px $service-hover-shadow;
+    }
+    
+    &:focus {
+      outline: none;
+    }
+  }
+}
+
+.button_icon {
+  margin: 6px 0px;
+  position: absolute;
+  left: 15px;
+  top: 6px;
+}
+
+.get_in_touch_text {
+  margin: 0px 0px 0px 16px;
+}
+
+.touch_icon_mobile {
+  right: 15px;
+  margin-left: auto;
+  position: absolute;
+  top: 27px;
+  
+  @include lg {
+    display: none;
+  }
+}

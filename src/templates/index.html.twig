@@ -1,12 +1,23 @@
 <html>
-<head>
+  <head>
     <meta charset="UTF-8">
     <title>Axelerant: Interview Frontend</title>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,700" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.css"/>
     <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-    <h3>Welcome</h3>
-    {% include "_button.html.twig" %}
+  </head>
 
+  <body>
+    {% include "_header.html.twig" %} 
+    {% include "_banner.html.twig" %}
+    {% include "_across-globe.html.twig" %}
+    {% include "_testimonials.html.twig" %}
+    {% include "_work-with-us.html.twig" %}
+    {% include "_footer.html.twig" %}
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
     <script src="main.js"></script>
-</body>
+  </body>
+</html>

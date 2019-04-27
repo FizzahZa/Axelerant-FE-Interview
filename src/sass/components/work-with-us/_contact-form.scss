@@ -1,0 +1,65 @@
+form {
+  width: 100%;
+  font-size: $mall-description;
+  color: $form-text;
+  padding: $padding-mobile;
+  
+  @include lg {
+    width: 60%;
+    margin: 0 auto;
+  }
+}
+
+input {
+  width: 100%;
+  padding: $input-field;
+  border-radius: 4px;
+  margin-bottom: 16px;
+  border: 1px solid $footer-color;
+  box-shadow: 0 0 5px $service-hover-shadow;
+  
+  @include lg {
+    width: $contact-form-width;
+  }
+  
+  ::placeholder {
+    color: $position-placeholder;
+  }
+}
+
+input:focus {
+  outline: none;
+}
+
+.name {
+  margin-right: 0px;
+  
+  @include lg {
+    margin-right: 4px;
+  }
+}
+
+.phone {
+  margin-left: 0px;
+  
+  @include lg {
+    margin-left: 4px;
+  }
+}
+
+.message {
+  width: 100%;
+  border-radius: 4px;
+  padding: $message-field;
+  margin-bottom: 16px;
+  border: 1px solid $footer-color;
+  box-shadow: 0 0 5px $service-hover-shadow;
+  
+  @include lg {
+    width: 99%;
+  }
+  
+  &:focus {
+    outline: none;
+  }
+}

@@ -1,0 +1,56 @@
+.slick-slide {
+  height: auto;
+  margin: 0px 32px;
+  width: 32%;
+}
+
+.slick-prev {
+  color: $white;
+  text-decoration: underline;
+  font-weight: 500;
+  cursor: pointer;
+  padding: 0px 15px;
+  border: 1px solid $white;
+  height: 40px;
+  border-radius: 6px;
+  background: $prev-next;
+  margin-bottom: 125px;
+}
+
+.slick-next {
+  color: $white;
+  text-decoration: underline;
+  font-weight: 500;
+  cursor: pointer;
+  padding: 0px 15px;
+  border: 1px solid $white;
+  height: 40px;
+  border-radius: 6px;
+  background: $prev-next;
+  margin-bottom: 125px;
+}
+
+.slick-track {
+  width: 1280px;
+  display: flex;
+  justify-content: center;
+}
+
+.slick-dots {
+  display: flex;
+  position: absolute;
+  top: 100%;
+  margin: 0px 0px;
+  width: 100px;
+}
+.slick-dots li {
+  font-size: 28px;
+  cursor: pointer;
+
+  &:visited {
+    color: $button-color;
+  }
+}
+.slick-dots li button {
+  visibility: hidden;
+}

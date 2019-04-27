@@ -1,0 +1,9 @@
+.across_globe_image {
+  width: 100%;
+
+  @include lg {
+    width: $globe-width;
+    display: flex;
+    align-items: center;
+  }
+}
